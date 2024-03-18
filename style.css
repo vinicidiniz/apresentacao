@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+.titulo-destaque{
+    color: #22D4FD;
+}
+
+.apresentacao{
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__link{
+    background-color: #22D4FD;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Meu Código */
+
+/* Corpo,ALtura da tela, cordo plano de fundo e cor do texto */
+
+/* body{
+    height: 100vh; 100 % da tela do nosso navegador
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+} */
+
+/* Class Título */
+/* .titulo-destaque{
+    color: blue;
+} 
+.paragrafo{ TAG STRONG COM CLASSES DIFERENTES
+    color: red;
+} */
+
+/* RESET */
+/* *{
+    margin: 0px;
+    padding: 0px;
+
+} */
+
+/* Estrutura da Menu FLEX BOX */
+/* 
+.apresentacao{
+    margin: 10%; FALTou 15 %
+    display: flex;
+    /flex-direction: row; /
+    align-items: center;
+    justify-content: space-between;
+    
+}
+Toda a Seção (Titulo, Paragrado, links, exceto IMagem)
+.apresentacao__conteudo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; ERRADO!
+    width: 615px;
+    flex-direction: column;
+    FALTOU: gap:40px;
+
+
+}
+
+.apresentacao__conteudo__titulo{
+    Errado   width: 593px;
+    Errado   height: 168px;
+    Certo 24 px  font-size: 36px;
+    Certo  font-family:"Krona One", sans-serif;
+    Errado font-weight: 400px;
+}
+
+apresentacao__conteudo__texto{
+    Certo font-size: 24px;
+    Certo    font-family:"Montserrat", sans-serif;
+    Errado font-weight: 400;
+}
+
+.apresentacao__links{
+    Certo display: flex;
+    Certo justify-content: space-between;
+}
+
+.apresentacao__links__link{
+    Faltou: 
+    background-color: #22D4FD;
+    width: 280px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+
+    Certo:
+    text-align: center;
+    border-radius: 16px;
+    text-decoration: none;    
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+TESTES
+
+body{
+    background-color:  #000000;
+    color: #d80d0d;
+
+/*Laranja e Verde brilhante #FF5733
+#00FF00 
+strong{
+    color: rosybrown;
+}
+
+h1{
+    font-weight: bold;
+    }
+span{
+    color: #22D4FD;
+            border: 1px solid #22D4FD;
+            padding: 10px;
+}
+
+ Explicando o código acima:
+
+font-weight: bold; (Texto em negrito)
+
+color: #22D4FD; (Cor do texto azul)
+
+border: 1px solid #22D4FD; (Borda com 1 px de largura, do tipo sólida e cor da borda azul)
+
+padding: 10px; (Espaçamento interno de 10px) 
+
+
+h2{
+    color: #F27405;
+}
+
+ol{
+    color: #F27405;
+} */
